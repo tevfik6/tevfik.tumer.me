@@ -1,0 +1,472 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Tevfik Tümer - My Works </title>
+        <meta name="description" content="Tevfik Tümer &copy; 2016 - Personal Portfolio Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" href="/assets/ico/favicon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144x144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114x114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72x72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57x57-precomposed.png">
+		<link rel="apple-touch-icon" href="/assets/ico/apple-touch-icon.png">
+		<link rel="stylesheet" href="/assets/css/normalize.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="/assets/css/main.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<link rel="stylesheet" href="/assets/css/tevfik.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="/assets/css/entypo.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="/assets/css/tevfik-responsive.css" media="screen" charset="utf-8">
+
+		<script src="/assets/js/vendor/modernizr-2.6.1.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+		<script src="/assets/js/vendor/vue.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header id="header">
+            <div class="container">
+                <a href="/">
+                    <img src="/assets/img/tev144.png" alt="Tevfik" class="logo">
+                    <name>Tevfik Tümer</name>
+                </a>
+        
+                <nav>
+                    <ul class="list-unstyled">
+                        <li class="about">
+                            <a href="/" title="About Me">
+                                <span class="entypo">&#59170;</span>
+                                <span class="marker visible-desktop">About Me</span>
+                            </a>
+                        </li>
+                        <li class="works active">
+                            <a href="/works/" title="My Works">
+                                <span class="entypo">&#59392;</span>
+                                <span class="marker visible-desktop">My Works</span>
+                            </a>
+                        </li>
+                        <li class="contact">
+                            <a href="/contact/" title="Contact">
+                                <span class="entypo">&#128319;</span>
+                                <span class="marker visible-desktop">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header><!-- /header -->
+
+
+		<div class="container">
+            <style type="text/css">
+
+                section .window{
+                    background: -webkit-linear-gradient(rgba(233, 233, 233, 1.0), rgba(178, 178, 178, 1.0) 21px, #EDEDED 35px);
+                    background: -moz-linear-gradient(rgba(233, 233, 233, 1.0), rgba(178, 178, 178, 1.0) 21px, #EDEDED 35px);
+                     -webkit-border-radius: 5px;
+                           -moz-border-radius: 5px;
+                                border-radius: 5px;
+            
+                    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6), 0 4px 20px 0px rgba(0, 0, 0, 0.36), 0 0 0 1px rgba(0, 0, 0, 0.15);
+            
+                    /*box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6), 0 10px 30px 0px rgba(0, 0, 0, 0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);*/
+                    text-align: left;
+                    position:relative;
+                }
+            
+                .window > img,
+                .round-bottom-left-right{
+                    -webkit-border-radius: 0px 0px 5px 5px;
+                       -moz-border-radius: 0px 0px 5px 5px;
+                            border-radius: 0px 0px 5px 5px;
+                    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+                }
+                .window > img{
+                    max-width: 100%;
+                    height: auto;
+                    width: auto\9;
+                }
+                section .window h1{
+                    font-family: 'Lucida Grande';
+                    position: relative;
+                    z-index: 2;
+                    color: #3C3C3C;
+                    font-size: 13px;
+                    line-height: 21px;
+                    text-decoration: none;
+                    text-shadow: 0 1px 1px #E7E7E7;
+                    text-align: center;
+                    text-transform: capitalize;
+                    margin:0;
+                    border-bottom: 1px solid #656565;
+                }
+            
+                nav.control-window {
+                    position:absolute;
+                    left:5px;
+                    top:3px;
+                    z-index:10;
+                    height:19px;
+                }
+                nav.control-window a {
+                    display: inline-block;
+                    margin: 2px 0px 3px 1px;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 100%;
+                    box-shadow: 0px 1px 0px rgba(255,255,255,.5);
+                    text-indent: -9999px;
+                    position: relative;
+                }
+                nav.control-window a:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    border-radius: 100%;
+                    box-shadow:inset 0 1px 4px rgba(0, 0, 0, .8);
+                    top: 0px;
+                    left: 0px;
+                    bottom: 0px;
+                    right: 0px;
+                }
+                nav.control-window a:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 2px;
+                    left: 1px;
+                    bottom: 1px;
+                    right: 1px;
+                    border-radius: 100%;
+                    background: -webkit-linear-gradient(white, rgba(255, 255, 255, .9) 2%, white, rgba(255, 255, 255, .4) 16%, rgba(255, 255, 255, 0) 43%, rgba(255, 255, 255, .74), rgba(255, 255, 255, .7) 122%, rgba(255, 255, 255, .7));
+                    background: -moz-linear-gradient(white, rgba(255, 255, 255, .9) 2%, white, rgba(255, 255, 255, .4) 16%, rgba(255, 255, 255, 0) 43%, rgba(255, 255, 255, .74), rgba(255, 255, 255, .7) 122%, rgba(255, 255, 255, .7));
+                    box-shadow: inset 0px -3px -5px 3px rgba(255, 255, 255, 0.2), inset 0px 2px -5px 3px rgba(255, 255, 255, 0.2);
+                }
+                nav.control-window a.closed {
+                    background: #FD4E4E;
+                }
+                nav.control-window:hover a.closed {
+                    background: #FD4E4E;
+                }
+                nav.control-window a.closed:active {
+                    background: #c72f2b;
+                }
+                nav.control-window a.minimize {
+                    background: #F3BB55;
+                }
+                nav.control-window:hover a.minimize {
+                    background: #F3BB55;
+                }
+                nav.control-window a.minimize:active {
+                    background: #c7862c;
+                }
+                nav.control-window a.maximize {
+                    background: #96D16F;
+                }
+                nav.control-window:hover a.maximize {
+                    background: #96D16F;
+                }
+                nav.control-window a.maximize:active {
+                    background: #4a8e33;
+                }
+            
+            
+            
+                ul.tags li {
+                    background-color: #b7b7b7;
+                    background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.12) 0%, rgba(0,0,0,0.1) 99%, rgba(0,0,0,0.1) 100%);
+                    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.12)), color-stop(99%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.1)));
+                    background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0.12) 0%,rgba(0,0,0,0.1) 99%,rgba(0,0,0,0.1) 100%);
+                    background-image: -o-linear-gradient(top,  rgba(255,255,255,0.12) 0%,rgba(0,0,0,0.1) 99%,rgba(0,0,0,0.1) 100%);
+                    background-image: -ms-linear-gradient(top,  rgba(255,255,255,0.12) 0%,rgba(0,0,0,0.1) 99%,rgba(0,0,0,0.1) 100%);
+                    background-image: linear-gradient(top,  rgba(255,255,255,0.12) 0%,rgba(0,0,0,0.1) 99%,rgba(0,0,0,0.1) 100%);
+            
+                    -webkit-border-radius: 3px;
+                       -moz-border-radius: 3px;
+                            border-radius: 3px;
+            
+            
+                    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+                    -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+                    box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+            
+                    border: 1px solid #888;
+                    position: relative;
+                    display: inline-block;
+                    margin: 0 2px 2px 0;
+                    padding: 0 5px 0 13px;
+                    height: 17px;
+            
+                    color: #fff;
+                    font-size: 12px;
+                    line-height: 17px;
+                    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+                    text-decoration: none;
+            
+                }
+            
+                ul.tags li:before {
+                    background: #fff;
+                    border: 1px solid #888;
+                    border-radius: 6px;
+                    content: '';
+                    position: absolute;
+                    height: 6px;
+                    width: 6px;
+                    top: 5px;
+                    left:4px;
+                }
+            
+                ul.tags li.inset {
+                    color: rgba(0,0,0,0.5);
+                    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+                }
+            
+                div.works.row{
+                    margin-bottom:20px;
+                }
+                section{
+                    margin-bottom:50px !important;
+                }
+                section:last-child{
+                    margin-bottom: .75rem !important;
+                }
+                section h3{
+                    margin-bottom:0;
+                }
+                section .info{
+            
+                }
+                section .screenshot{
+                }
+                .card-header .entypo{
+                    font-size: 1.8em;
+                    line-height: 0.8em;
+                    margin-bottom: -0.1em;
+                }
+            </style>
+            
+            
+            <div class="row works" id="works">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <section class="card" v-for="work in works" v-cloak>
+                        <h4 class="card-header"><a :href="work.link" target="_blank"><span class="entypo">&#128279;</span> @{{work.name}}</a></h4>
+                        <div class="card-block">
+                            <ul class="card-title tags list-unstyled">
+                                <li v-for="tag in work.tags" v-text="tag"></li>
+                            </ul>
+                            <div class="window" :style="'max-width:' + work.max_width + 'px;'">
+                                <nav class="control-window">
+                                    <a href="#" class="closed">close</a>
+                                    <a href="#" class="minimize">minimize</a>
+                                    <a href="#" class="maximize">maximize</a>
+                                </nav>
+                                <h1 v-text="work.name"></h1>
+                                <img :src="work.img_url" :alt="work.name">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            
+            <script type="text/javascript">
+                var works = [
+                    {
+                        link:"http://www.yurtdisitecrubesi.com",
+                        name:"Yurtdışı Tecrübesi",
+                        tags:[
+                            "FuelPHP Framework",
+                            "PHP 5.3",
+                            "MySQL",
+                            "HTML5",
+                            "CSS3",
+                            "Twitter Bootstrap",
+                            "JavaScript",
+                            "jQuery",
+                            "AJAX",
+                            "MVC",
+                            "SEO",
+                            "CMS",
+                            "Design",
+                            "Photoshop",
+                        ],
+                        max_width: '944',
+                        img_url: '/assets/img/portfolio/yurtdisi_tecrubesi.png',
+                    },
+                    {
+                        link:"http://www.kula.com.tr",
+                        name:"Kula Makina",
+                        tags:[
+                            "Codigniter Framework",
+                            "PHP 5",
+                            "MySQL",
+                            "HTML5",
+                            "CSS3",
+                            "JavaScript",
+                            "jQuery",
+                            "AJAX",
+                            "MVC",
+                            "SEO",
+                            "CMS",
+                            "Design",
+                            "Photoshop",
+                        ],
+                        max_width: '1171',
+                        img_url: '/assets/img/portfolio/kula_makina.png',
+                    },
+                    {
+                        link:"http://www.dttasarim.com",
+                        name:"Derya Tokmakçıoğlu",
+                        tags:[
+                            "PHP",
+                            "MySQL",
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "jQuery",
+                            "AJAX",
+                            "SEO",
+                            "CMS",
+                            "Design",
+                            "Photoshop",
+                        ],
+                        max_width: '1058',
+                        img_url: '/assets/img/portfolio/dttasarim.png',
+                    },
+                    {
+                        link:"http://www.karnesitesi.com",
+                        name:" Karnesitesi",
+                        tags:[
+                            "PHP",
+                            "MySQL",
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "jQuery",
+                            "SEO",
+                            "CMS",
+                            "Design",
+                            "Photoshop",
+                        ],
+                        max_width: '815',
+                        img_url: '/assets/img/portfolio/karnesitesi.png',
+                    },
+                    {
+                        link:"http://www.dersverilir.net",
+                        name:"Dersverilir.net",
+                        tags:[
+                            "PHP",
+                            "MySQL",
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "jQuery",
+                            "AJAX",
+                            "SEO",
+                            "CMS",
+                            "Design",
+                            "Photoshop",
+                        ],
+                        max_width: '1073',
+                        img_url: '/assets/img/portfolio/dersverilir.png',
+                    },
+                    {
+                        link:"http://www.bia.com.tr",
+                        name:"Bia Agency",
+                        tags:[
+                            "PHP",
+                            "MySQL",
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "Mootools",
+                            "AJAX",
+                            "SEO",
+                            "CMS",
+                            "Design",
+                            "Photoshop",
+                        ],
+                        max_width: '940',
+                        img_url: '/assets/img/portfolio/bia.png',
+                    },
+                    {
+                        link:"http://www.tbl.org.tr",
+                        name:"Turkish Basketball League",
+                        tags:[
+                            "PHP",
+                            "MySQL",
+                            "HTML",
+                            "XML",
+                            "CSS",
+                            "JavaScript",
+                            "CMS",
+                        ],
+                        max_width: '948',
+                        img_url: '/assets/img/portfolio/tbl.png',
+                    },
+                    {
+                        link:"http://www.win.com.tr",
+                        name:"Win Agency",
+                        tags:[
+                            "Agency",
+                            "PHP",
+                            "MySQL",
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "jQuery",
+                            "Mootools",
+                            "AJAX",
+                            "E-Commerce",
+                            "SEO",
+                            "CMS",
+                            "Design",
+                            "Photoshop",
+                        ],
+                        max_width: '988',
+                        img_url: '/assets/img/portfolio/win_agency.png',
+                    },
+                ];
+                new Vue({
+                    el: '#works',
+                    data: {
+                        works: works
+                    }
+                });
+                jQuery(function() {
+                    jQuery(".tags a").click(function(e) {
+                        return false;
+                    })
+                    jQuery(".control-window a").click(function(e) {
+                        return false;
+                    })
+                    jQuery(window).on('scroll', function(e) {
+                        var className = "drop-shadow";
+                        var scrollTop = jQuery(window).scrollTop();
+                        if( scrollTop > 10){
+                            jQuery("header").addClass(className);
+                        }else{
+                            jQuery("header").removeClass(className);
+                        }
+                    });
+                });
+            </script>
+        </div>
+
+		<footer>
+			Tevfik Tümer &copy; 2016 All rights reserved.<br>
+		</footer>
+		<script src="/assets/js/plugins.js"></script>
+		<script src="/assets/js/main.js"></script>
+		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="/assets/js/tevfik.js"></script>
+
+	</body>
+</html>

@@ -1,15 +1,673 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Tevfik Tümer - About Me</title>
+        <meta name="description" content="Tevfik Tümer &copy; 2016 - Personal Portfolio Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tevfik Tümer | Portfolio</title>
-</head>
+		<link rel="shortcut icon" href="/assets/ico/favicon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144x144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114x114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72x72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57x57-precomposed.png">
+		<link rel="apple-touch-icon" href="/assets/ico/apple-touch-icon.png">
+		<link rel="stylesheet" href="/assets/css/normalize.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="/assets/css/main.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<link rel="stylesheet" href="/assets/css/tevfik.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="/assets/css/entypo.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="/assets/css/tevfik-responsive.css" media="screen" charset="utf-8">
 
-<body>
-    Details
-</body>
+		<script src="/assets/js/vendor/modernizr-2.6.1.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+		<script src="/assets/js/vendor/vue.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
+        <header id="header">
+            <div class="container">
+                <a href="/">
+                    <img src="/assets/img/tev144.png" alt="Tevfik" class="logo">
+                    <name>Tevfik Tümer</name>
+                </a>
+        
+                <nav>
+                    <ul class="list-unstyled">
+                        <li class="about active">
+                            <a href="/" title="About Me">
+                                <span class="entypo">&#59170;</span>
+                                <span class="marker visible-desktop">About Me</span>
+                            </a>
+                        </li>
+                        <li class="works">
+                            <a href="/works/" title="My Works">
+                                <span class="entypo">&#59392;</span>
+                                <span class="marker visible-desktop">My Works</span>
+                            </a>
+                        </li>
+                        <li class="contact">
+                            <a href="/contact/" title="Contact">
+                                <span class="entypo">&#128319;</span>
+                                <span class="marker visible-desktop">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header><!-- /header -->
+
+
+		<div class="container">
+			<style type="text/css">
+                .profile-photo{
+                    -webkit-border-radius: 10px;
+                       -moz-border-radius: 10px;
+                            border-radius: 10px;
+                    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+                    max-width: 160px;
+                    float:left;
+                    margin-right:40px;
+                    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+                       -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+                            box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+                }
+                .first-line{
+                    text-align: center;
+                }
+                .first-line div{
+                    margin:0 auto;
+                    width:92%;
+                    text-align: left;
+                    padding-top:15px;
+                }
+                .first-line div h3{
+                    margin-top:15px;
+                }
+                .first-line div h4{
+                    color:#666;
+                }
+            </style>
+            
+            <div class="first-line lead">
+                <div>
+                    <img src="http://www.gravatar.com/avatar/6dcb5dcc85145bbd70ef3c4e461544e3?s=144&d=mm&r=g" alt="Tevfik" class="profile-photo">
+                    <h3>Hi! This is Tevfik from Munich/Germany</h3>
+                    <h4>Web Developer and Computer Engineer</h4>
+            
+                    Here you can find some information about me, check out my works and send a message to me.
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <style type="text/css">
+                        section{
+                        }
+                        section hr{
+                            border-top: 1px solid #ccc;
+                            margin:46px 0;
+                        }
+                        section > ul{
+                            margin-bottom:100px;
+                        }
+                        section ul li{
+                            margin-bottom:25px;
+                        }
+                        section h3{
+                            font-family: "Quando";
+                            margin-top:-65px;
+                            color:#666;
+                            margin-bottom: 25px;
+                        }
+                        section h3 strong{
+                            background-color: #fff;
+                            padding-right: 15px;
+                            font-size: 20px;
+                        }
+                        section h4,
+                        section h5{
+                            margin:0;
+                        }
+                        section h4{
+                            color: #444;
+                            line-height: 2.5rem;
+                            font-size: 1.3rem;
+                        }
+                        section h5{
+                            font-size: 1.05rem;
+                        }
+                        section h4 .date{
+                            color: #f5ad91;
+                            margin-left: 10px;
+                            font-weight: normal;
+                            padding: 2px 6px;
+                            float: right;
+                            font-size:15px;
+                            line-height: 28px;
+                        }
+                        section h5{
+                            color: #999;
+                            line-height: 1.5rem;
+                        }
+                        section p{
+                            color: #666;
+                            margin-top: 5px;
+                            text-align: justify;
+                        }
+            
+                        section ul li > div.details,
+                        section > div.details{
+                            border-left:4px solid #f5ad91;
+                            padding-left:15px;
+                        }
+                    </style>
+                    <section class="education">
+                        <hr>
+                        <h3><strong>Education</strong></h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="details">
+                                    <h4>Computer Engineering <span class="date">2009 - 2012</span></h4>
+                                    <h5>Izmir University of Economics, Bachelor</h5>
+                                    <p>
+                                        After graduating Computer Technologies and Programming in 2005, I decided to work. So, I worked couple years on the market.
+            
+                                        At that time our education system was going through some changes and I took the opportunity to study Computer Enginnering at Izmir University of Economics by passing the "DGS" exam.
+            
+                                        As I have already got an Associate Degree, it took only three years to complete Bachelor degree.
+            
+                                        Not only have I increased my experience in C++ and Java but I have also gained necessary skills for Computer Engineering.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="details">
+                                    <h4>Computer Technologies and Programming <span class="date">2002 - 2005</span></h4>
+                                    <h5>Izmir University of Economics, Associate Degree</h5>
+                                    <p>
+                                        In 1996 the development of new technologies fueled my curiosity for computer programming.
+                                        After graduating from high school in 2002, I have chosen Computer Technologies and Programming department at Izmir University of Economics.
+            
+                                        At first I took one year of English Preperation Class and then completed my two-years study in this department.
+            
+                                        This department has increased my knowledge of C programming language and Data Structures.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+            
+                    <section class="qualifications">
+                        <hr>
+                        <h3><strong>Qualifications</strong></h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="details">
+                                    <h4>Certified Sugar Developer Specialist <span class="date">2015</span></h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="details">
+                                    <h4>Certified Sugar Administration Specialist <span class="date">2014</span></h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="details">
+                                    <h4>Oracle Database Course Certification <span class="date">2011</span></h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+            
+            
+                    <section class="experience" id="experiences">
+                        <hr>
+                        <h3><strong>Experiences</strong></h3>
+                        <div class="details" v-for="experience in experiences" v-cloak>
+                            <h4> @{{experience.name}} <span class="date" v-text="experience.date"></span></h4>
+                            <h5 v-text="experience.title"></h5>
+                            <p v-html="experience.description"></p>
+                        </div>
+                    </section>
+                    <script type="text/javascript">
+                        var experiences = [
+                            {
+                                name: "SugarCRM Deutschland GmbH",
+                                date: "2017 - Present",
+                                title: "Senior Developer Support Engineer",
+                                description: ' <a href="http://www.sugarcrm.com/de">http://www.sugarcrm.com/de</a> ',
+                            },
+                            {
+                                name: "SugarCRM Deutschland GmbH",
+                                date: "2013 - 2017",
+                                title: "Developer Support Engineer",
+                                description: ' <a href="http://www.sugarcrm.com/de">http://www.sugarcrm.com/de</a> ',
+                            },
+                            {
+                                name: "Yurtdışı Tecrübesi",
+                                date: "2012 - 2013",
+                                title: "Freelancer",
+                                description: ' This is an online project for people who want to share their experiences traveling abroad for different purposes (work, tourism, education, etc.) <br> In this project I worked with FuelPHP Framework, PHP, MySQL, HTML5, CSS3, JavaScript, jQuery, Adobe Photoshop.<br> <a href="http://www.yurtdisitecrubesi.com">http://www.yurtdisitecrubesi.com</a> ',
+                            },
+                            {
+                                name: "Kula Makina",
+                                date: "2011 - 2012",
+                                title: "Freelancer",
+                                description: ' This is a webside of a company that is selling CNC Machines in Ankara and Istanbul. <br> In this project I worked with Codeigniter Framework, PHP, MySQL, HTML5, CSS3, JavaScript, jQuery, Adobe Photoshop.<br> <a href="http://www.kula.com.tr">http://www.kula.com.tr</a> ',
+                            },
+                            {
+                                name: "Derya Tokmakçıoğlu",
+                                date: "2010 - Present",
+                                title: "Freelancer",
+                                description: ' We have re-designed and re-programmed of a our previous projects (2008).<br> In this project I worked with PHP, MySQL, HTML, CSS, JavaScript, jQuery, Adobe Photoshop.<br> <a href="http://www.dttasarim.com">http://www.dttasarim.com</a> - <a href="http://www.deryatokmakcioglu.com">http://www.deryatokmakcioglu.com</a> ',
+                            },
+                            {
+                                name: "Karnesitesi.com",
+                                date: "2009 - 2010",
+                                title: "Freelancer",
+                                description: ' We have developed this project for dersverilir.net. The main purpose of this website is to evaluate students\' school reports and give advice on what tutoring courses you should take. <br> In this project I worked with PHP, MySQL, HTML, CSS, JavaScript, Photoshop.<br> <a href="http://www.karnesitesi.com">http://www.karnesitesi.com</a> ',
+                            },
+                            {
+                                name: "Dersverilir.net",
+                                date: "2009",
+                                title: "Freelancer",
+                                description: ' This is the most popular portal in Turkey that helps students and private teacher find each other.<br> In this project I worked with PHP, MySQL, HTML, CSS, JavaScript, Photoshop.<br> <a href="http://www.dersverilir.net">http://www.dersverilir.net</a> ',
+                            },
+                            {
+                                name: "Bia Ajans",
+                                date: "2008",
+                                title: "Freelancer",
+                                description: ' Bia Ajans is one of the biggest agencies in Izmir.<br> In this project I worked with PHP, MySQL, HTML, CSS, JavaScript, jQuery.<br> <a href="http://www.bia.com.tr">http://www.bia.com.tr</a> ',
+                            },
+                            {
+                                name: "Derya Tokmakçıoğlu",
+                                date: "2007 - 2008",
+                                title: "Freelancer",
+                                description: ' This is a website for a successful architect, who has designed many hospital and office buildings in Izmir.<br> In this project I worked with PHP, MySQL, HTML, CSS, JavaScript, jQuery, Photoshop.<br> <a href="http://www.dttasarim.com">http://www.dttasarim.com</a> - <a href="http://www.deryatokmakcioglu.com">http://www.deryatokmakcioglu.com</a> ',
+                            },
+                            {
+                                name: "Turkish Basketball League",
+                                date: "2006 - 2007",
+                                title: "Agency: Win Media",
+                                description: ' With the Win Media Agency I have worked on programming the official page of Turkish Basketball League.<br> In this project I worked with PHP, MySQL, HTML, XML, JavaScript.<br> <a href="http://www.tbl.gov.tr">http://www.tbl.gov.tr</a> ',
+                            },
+                            {
+                                name: "Bobofone - Lokofun",
+                                date: "2005 - 2006",
+                                title: "Agency: Win Media",
+                                description: ' It was a mobile ring-tone store supported by Turkcell on the biggest mobile providers in Turkey.<br> In this project I worked with PHP, MySQL, HTML, JavaScript. ',
+                            },
+                            {
+                                name: "Eurobasket Women 2005",
+                                date: "2005",
+                                title: "Agency: Win Media",
+                                description: ' A website for Turkish Women Basketball League.<br> In this project I worked with PHP, MySQL, HTML, JavaScript. ',
+                            },
+                            {
+                                name: "Win Media, Creative and Hostin",
+                                date: "2005",
+                                title: "Agency",
+                                description: ' After I finished my Associate Degree, I started to work for Win Media agency. There I have worked on both big and small-budget projects. ',
+                            },
+                        ];
+                        new Vue({
+                            el: '#experiences',
+                            data:{
+                                experiences: experiences
+                            }
+                        });
+                    </script>
+            
+            
+            <!-- 	</div>
+                <div class="col-sm-5"> -->
+                    <style type="text/css">
+                    section.skills .col-sm-3,
+                    section.skills .col-sm-9{
+                        margin-left:0;
+                    }
+                    section.skills strong.col-sm-3{
+                        text-align: right;
+                        padding-right: 20px;
+                        margin-left: -20px;
+                    }
+                    section.skills div.progress{
+                        margin:0;
+                        float:none;
+                        display: inline-block;
+                        vertical-align: text-bottom;
+                        height:16px;
+                    }
+                    section.skills .details{
+                        border:0 none;
+                    }
+                    section.skills .details hr{
+                        margin:15px 0 0;
+                    }
+            
+                    section.skills .details  h4{
+                        font-family: "Quando";
+                        margin-top:-20px;
+                        margin-bottom:10px;
+                        font-size:13px;
+                        color:#999;
+                    }
+                    section.skills .details  h4 strong{
+                        background-color: #fff;
+                        padding: 0 15px;
+                    }
+                    section.skills .details > .row,
+                    section.os .details > .row,
+                    section.language .details > .row{
+                        margin-bottom: 1rem;
+                    }
+                    section.skills .details > .row > strong,
+                    section.os .details > .row > strong,
+                    section.language .details > .row > strong{
+                        font-size: 90%;
+                    }
+                    .progress{
+                        height:1.2rem;
+                        margin:0;
+                    }
+                    </style>
+                    <section class="skills" id="skills">
+                        <hr>
+                        <h3><strong>Programming</strong></h3>
+                        <div class="details" v-for="skill in skills" v-cloak>
+                            <hr>
+                            <h4><strong v-text="$key"></strong></h4>
+                            <div class="row" v-for="lang in skill" v-cloak>
+                                <strong class="col-sm-3" v-text="lang.name"></strong>
+                                <div class="col-sm-9">
+                                    <progress :class="lang.progress_class" class="progress" :value="lang.progress_value" max="100"></progress>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <script type="text/javascript">
+                        var skills = {
+                            "Web Programming":[
+                                {
+                                    name:"PHP",
+                                    progress_class:"progress-success",
+                                    progress_value:"100",
+                                },
+                                {
+                                    name:"HTML4/5",
+                                    progress_class:"progress-success",
+                                    progress_value:"100",
+                                },
+                                {
+                                    name:"JavaScript",
+                                    progress_class:"progress-success",
+                                    progress_value:"95",
+                                },
+                                {
+                                    name:"CSS2/3",
+                                    progress_class:"progress-success",
+                                    progress_value:"95",
+                                },
+                                {
+                                    name:"SQL/MySQL",
+                                    progress_class:"progress-success",
+                                    progress_value:"95",
+                                },
+                                {
+                                    name:"NodeJS",
+                                    progress_class:"",
+                                    progress_value:"50",
+                                },
+                            ],
+                            "Programming":[
+                                {
+                                    name:"C",
+                                    progress_class:"progress-success",
+                                    progress_value:"95",
+                                },
+                                {
+                                    name:"Regular Expressions (RegEx)",
+                                    progress_class:"progress-success",
+                                    progress_value:"85",
+                                },
+                                {
+                                    name:"Python",
+                                    progress_class:"progress-success",
+                                    progress_value:"75",
+                                },
+                                {
+                                    name:"Objective-C",
+                                    progress_class:"",
+                                    progress_value:"25",
+                                },
+                                {
+                                    name:"C++",
+                                    progress_class:"",
+                                    progress_value:"40",
+                                },
+                                {
+                                    name:"Java",
+                                    progress_class:"",
+                                    progress_value:"20",
+                                },
+                                {
+                                    name:"Perl",
+                                    progress_class:"progress-warning",
+                                    progress_value:"15",
+                                }
+                            ],
+                            "Frameworks":[
+                                {
+                                    name:"FuelPHP - PHP",
+                                    progress_class:"progress-success",
+                                    progress_value:"100",
+                                },
+                                {
+                                    name:"Laravel - PHP",
+                                    progress_class:"progress-success",
+                                    progress_value:"90",
+                                },
+                                {
+                                    name:"Codeigniter - PHP",
+                                    progress_class:"progress-success",
+                                    progress_value:"85",
+                                },
+                                {
+                                    name:"jQuery - JavaScript",
+                                    progress_class:"progress-success",
+                                    progress_value:"100",
+                                },
+                                {
+                                    name:"VueJS - JavaScript",
+                                    progress_class:"progress-success",
+                                    progress_value:"90",
+                                },
+                                {
+                                    name:"Mootools - JavaScript",
+                                    progress_class:"",
+                                    progress_value:"70",
+                                },
+                                {
+                                    name:"Twitter Bootstrap - CSS",
+                                    progress_class:"progress-success",
+                                    progress_value:"100",
+                                }
+                            ]
+                        };
+                        var vskill = new Vue({
+                            el: '#skills',
+                            data: {
+                                skills:skills
+                            }
+                        });
+                    </script>
+            
+                    <style type="text/css">
+                        section.os .details{
+                            border:0 none;
+                        }
+                        section.os .col-sm-3,
+                        section.os .col-sm-9{
+                            margin-left:0;
+                        }
+                        section.os strong.col-sm-3{
+                            text-align: right;
+                            padding-right: 20px;
+                            margin-left: -20px;
+                        }
+                        section.os div.progress{
+                            margin:0;
+                            float:none;
+                            display: inline-block;
+                            vertical-align: text-bottom;
+                            height:16px;
+                        }
+                    </style>
+                    <section class="os">
+                        <div class="details">
+                            <hr>
+                            <h3><strong>Operating Systems</strong></h3>
+                            <div class="row">
+                                <strong class="col-sm-3">Mac OS X</strong>
+                                <div class="col-sm-9">
+                                    <progress class="progress progress-success" value="100" max="100"></progress>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <strong class="col-sm-3">Linux</strong>
+                                <div class="col-sm-9">
+                                    <progress class="progress progress-success" value="90" max="100"></progress>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <strong class="col-sm-3">Windows</strong>
+                                <div class="col-sm-9">
+                                    <progress class="progress progress-warning" value="15" max="100"></progress>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            
+                    <style type="text/css">
+                        section.language{
+                            margin-bottom: 30px;
+                        }
+                        section.language .details{
+                            border:0 none;
+                        }
+                        section.language .col-sm-3,
+                        section.language .col-sm-9{
+                            margin-left:0;
+                        }
+                        section.language strong.col-sm-3{
+                            text-align: right;
+                            padding-right: 20px;
+                            margin-left: -20px;
+                        }
+                        section.language div.progress{
+                            margin:0;
+                            float:none;
+                            display: inline-block;
+                            vertical-align: text-bottom;
+                            height:16px;
+                        }
+                    </style>
+                    <section class="language" id="languages">
+                        <div class="details">
+                            <hr>
+                            <h3><strong>Languages</strong></h3>
+                            <div class="row" v-for="language in languages">
+                                <strong class="col-sm-3" v-text="language.name"></strong>
+                                <div class="col-sm-9">
+                                    <progress :class="language.progress_class" class="progress" :value="language.progress_value" max="100"></progress>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <script type="text/javascript">
+                        var languages = [
+                            {
+                                name:"Türkçe",
+                                progress_class:"progress-success",
+                                progress_value:"100",
+                            },
+                            {
+                                name:"English",
+                                progress_class:"progress-success",
+                                progress_value:"85",
+                            },
+                            {
+                                name:"Deutsch",
+                                progress_class:"",
+                                progress_value:"65",
+                            },
+                            {
+                                name:"Русский",
+                                progress_class:"progress-warning",
+                                progress_value:"20",
+                            }
+                        ];
+                        var vlanguages = new Vue({
+                            el: '#languages',
+                            data: {
+                                languages: languages
+                            }
+                        });
+                    </script>
+            
+                    <script type="text/javascript">
+                        jQuery(function() {
+                            jQuery(".progress .bar").each(function(e) {
+                                var percentage = jQuery(this).attr("data-percentage");
+                                jQuery(this).animate({width: percentage}, 250);
+                            });
+            
+                            jQuery(window).on('scroll', function(e) {
+                                var className = "drop-shadow";
+                                var scrollTop = jQuery(window).scrollTop();
+                                if( scrollTop > 10){
+                                    jQuery("header").addClass(className);
+                                }else{
+                                    jQuery("header").removeClass(className);
+                                }
+                            });
+                        });
+                    </script>
+            
+            
+                    <style type="text/css">
+                        @media (max-width: 767px) {
+                            section div ul li strong{
+                                text-align:left !important;
+                                padding-right: 0px !important;
+                                margin-left: 0px !important;
+                            }
+                        }
+                        @media (max-width: 480px) {
+                            .profile-photo{
+                                float:none;
+                                margin:0 auto;
+                                display:block;
+                            }
+                        }
+                    </style>
+            </div>
+		</div>
+
+		<footer>
+			Tevfik Tümer &copy; 2016 All rights reserved.<br>
+		</footer>
+		<script src="/assets/js/plugins.js"></script>
+		<script src="/assets/js/main.js"></script>
+		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="/assets/js/tevfik.js"></script>
+
+	</body>
 </html>
