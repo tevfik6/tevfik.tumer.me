@@ -231,7 +231,7 @@
                         <hr>
                         <h3><strong>Experiences</strong></h3>
                         <div class="details" v-for="experience in experiences" v-cloak>
-                            <h4> @{{experience.name}} <span class="date" v-text="experience.date"></span></h4>
+                            <h4> {{experience.name}} <span class="date" v-text="experience.date"></span></h4>
                             <h5 v-text="experience.title"></h5>
                             <p v-html="experience.description"></p>
                         </div>
