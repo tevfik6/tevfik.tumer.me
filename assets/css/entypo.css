@@ -1,0 +1,53 @@
+/* Entypo pictograms by Daniel Bruce — www.entypo.com */
+/* Entypo pictograms by Daniel Bruce — www.entypo.com */
+/* Entypo pictograms by Daniel Bruce — www.entypo.com */
+/* Entypo pictograms by Daniel Bruce — www.entypo.com */
+/* Entypo pictograms by Daniel Bruce — www.entypo.com */
+
+@font-face {
+    font-family: 'entypo';
+    src: url('../font-face/entypo.eot');
+    src: url('../font-face/entypo.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/entypo.woff') format('woff'),
+         url('../font-face/entypo.ttf') format('truetype'),
+         url('../font-face/entypo.svg#entypo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'entypo-social';
+    src: url('../font-face/entypo-social.eot');
+    src: url('../font-face/entypo-social.eot?#iefix') format('embedded-opentype'),
+         url('../font-face/entypo-social.woff') format('woff'),
+         url('../font-face/entypo-social.ttf') format('truetype'),
+         url('../font-face/entypo-social.svg#entypo-social') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+article h3 .entypo{
+    margin-left:-14px;
+    margin-top: 7px;
+    font-size: 1.8em;
+    line-height: 18px;
+}
+article h3 .sign{
+    visibility: hidden;
+}
+article h3:hover .sign{
+    visibility: visible;
+}
+.sign.edit{
+    color: #f79646;
+    margin-left:-2px;
+}
+.sign.delete{
+    color: #C0504D;
+    margin-left:10px;
+}

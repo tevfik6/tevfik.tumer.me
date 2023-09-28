@@ -1,0 +1,159 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans|Quando&subset=latin,latin-ext);
+
+.entypo{
+	font-family: 'entypo';
+	font-size:2em;
+	display: inline-block;
+	vertical-align: text-top;
+	font-weight: normal;
+}
+
+
+html,body{
+}
+body{
+	margin-top:105px;
+	overflow-y:scroll;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+body > header{
+	font-family:"Quando";
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	z-index:9999;
+	background-color: ghostWhite;
+	border-bottom:1px solid #e6e5e5;
+	-webkit-transition:box-shadow .2s ease-in-out;
+	-moz-transition:box-shadow .2s ease-in-out;
+	-ms-transition:box-shadow .2s ease-in-out;
+	-o-transition:box-shadow .2s ease-in-out;
+	transition:box-shadow .2s ease-in-out;
+	/*padding: 40px 0 5px 0;*/
+	margin: 0 auto;
+	/*height:40px;*/
+}
+
+body > header.drop-shadow {
+  border-bottom-color:rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.15);
+  box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.15);
+  top:0 !important;
+  position:fixed !important;
+}
+
+
+/* Header Styles */
+
+	header a img.logo{
+		max-width: 60px;
+		/*max-height: 60px;*/
+		margin-left: 87px;
+		padding:15px 0;
+	}
+	header name{
+		opacity:0;
+		display:none;
+	}
+
+	header nav{
+		float:right;
+		margin-top:30px;
+		display: inline-block;
+		margin-bottom:24px;
+	}
+	header nav ul{
+		margin:0;
+	}
+
+	header nav li{
+		display: inline-block;
+		margin: 0 6px;
+		padding: 0;
+		cursor: pointer;
+		text-shadow: 1px 2px 0 rgba(255, 255, 255, 0.75), 0 0 30px rgba(0, 0, 0, 0.25);
+	    -webkit-border-radius: 3px;
+	       -moz-border-radius: 3px;
+	            border-radius: 3px;
+	    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	    font-size:14px;
+	}
+
+	header nav ul li:hover{
+	    border:1px solid #eee;
+	    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+		-webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.10), inset 0px 1px 0px rgba(255, 255, 255, 1);
+		   -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.10), inset 0px 1px 0px rgba(255, 255, 255, 1);
+		        box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.10), inset 0px 1px 0px rgba(255, 255, 255, 1);
+	}
+	header nav ul li.active,
+	header nav ul li:active{
+	    border:1px solid #eee;
+	    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+		-webkit-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 0px rgba(255, 255, 255, 1);
+		   -moz-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 0px rgba(255, 255, 255, 1);
+		        box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 0px rgba(255, 255, 255, 1);
+	}
+
+	header nav li a{
+		color:#333;
+		padding:8px 9px 7px 9px;
+		display:inline-block;
+	}
+
+
+	header nav li.active a,
+	header nav li:hover a,
+	header nav li a:hover{
+		padding:7px 8px 6px 8px;
+		color:#47A2EF;
+	}
+
+	header nav li:active a,
+	header nav li a:active{
+		padding:7px 8px 6px 8px;
+		color:#ea6c62;
+	}
+
+	header nav li a .entypo{
+		font-size:3.2em;
+		margin-top:-2px;
+		line-height: 0.5em;
+	}
+
+
+/* Footer Styles */
+	footer{
+		font-family: "Quando";
+		font-size:12px;
+		color: #aaa;
+		text-shadow: 1px 2px 0 rgba(255, 255, 255, 0.75), 0 0 30px rgba(0, 0, 0, 0.25);
+		-webkit-border-radius: 3px;
+	       -moz-border-radius: 3px;
+	            border-radius: 3px;
+	    display:table;
+	    position: relative;
+	    margin:0 auto;
+	    background-color: ghostWhite;
+		padding: 10px 30px;
+		border:1px solid #eee;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	footer small{
+		display: block;
+		margin-top:5px;
+	}
+
+
+h1,h2,h3{
+	font-family: "Quando";
+}
+h4,h5,h6{
+	font-family: "Open Sans";
+}
